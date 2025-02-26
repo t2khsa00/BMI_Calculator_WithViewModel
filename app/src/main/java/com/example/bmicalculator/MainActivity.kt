@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun BmiScreen(viewModel: BmiViewModel = viewModel(), modifier: Modifier = Modifier) {
+fun BmiScreen(modifier: Modifier = Modifier, viewModel: BmiViewModel = viewModel()) {
     Column(modifier = modifier.padding(16.dp)) {
         Text(
             text = "Body Mass Index Calculator",
